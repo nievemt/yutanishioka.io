@@ -14,12 +14,13 @@ a {
 }
 
 img {
-  max-width: 100%;
+  margin: 0;
+  width: 100%;
 }
 
 /* header */
 .logo {
-  width: 40px;
+  width: 70px;
 }
 
 .main-nav {
@@ -56,7 +57,6 @@ img {
 
 /* home */
 .home-content {
-  padding-top: 300px;
   line-height: 30px;
 }
 
@@ -108,7 +108,7 @@ img {
 }
 
 #home {
-  background-image: url(img/yutanishioka.png);
+  /* background-image: url(img/yutanishioka.png); */
 }
 
 #home .page-title {
