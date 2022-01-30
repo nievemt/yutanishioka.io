@@ -20,6 +20,7 @@ img {
 
 /* header */
 .logo {
+  margin-left: 6px;
   width: 70px;
 }
 
@@ -28,6 +29,7 @@ img {
   font-size: 16px;
   text-transform: uppercase;
   margin-top: 34px;
+  margin-right: 10px;
   list-style:none;
 }
 
@@ -57,7 +59,7 @@ img {
 
 /* home */
 .home-content {
-  line-height: 30px;
+  line-height: 10px;
 }
 
 /* Name */
