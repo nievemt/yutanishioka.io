@@ -103,13 +103,13 @@ img {
   background-color: black;
   background-position: center top;
   background-repeat: no-repeat;
+  width: auto;
   height: 810px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 #home {
   background-image: url(img/yutanishioka.png);
-  min-height: 100vh;
 }
 
 #home .page-title {
@@ -118,8 +118,19 @@ img {
 
 /* footer */
 footer {
-  background-color: whitesmoke;
+  background-color: rgba(77, 72, 72, 0.171);
   padding: 20px 0;
   text-align: center;
   color:rgb(77, 72, 72);
+  margin: 0;
+}
+
+/* medium screen */
+@media (min-width: 600px) {
+
+}
+
+/* large screen */
+@media (min-width: 800px) {
+
 }
