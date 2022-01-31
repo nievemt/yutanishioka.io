@@ -61,16 +61,18 @@ img {
 
 /* home */
 .home-content {
-  line-height: 10px;
   text-align: center;
 }
 
 /* Name */
 .page-title {
-  font-size: 60px;
+  font-size: 100px;
   font-family:'Philosopher', serif;
   text-align: center;
-  line-height: top;
+}
+
+h2 {
+  margin: 10px auto;
 }
 
 /* button */
@@ -80,7 +82,7 @@ img {
   color: #fff;
   border-radius: 5px;
   padding: 12px 26px;
-  margin: 0 30%;
+  margin: 10px 30%;
 }
 
 .button:hover {
