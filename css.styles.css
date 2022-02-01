@@ -22,16 +22,16 @@ img {
 
 /* header */
 .logo {
-  margin-left: 6px;
+  margin-left: 20px;
   width: 70px;
 }
 
 .main-nav {
   display: flex;
-  font-size: 24px;
+  font-size: 30px;
   text-transform: uppercase;
   margin-top: 34px;
-  margin-right: 10px;
+  margin-right: 24px;
   list-style:none;
 }
 
@@ -72,12 +72,12 @@ img {
 }
 
 h2 {
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
 /* button */
 .button {
-  font-size: 20px;
+  font-size: 24px;
   background: #006f5f;
   color: #fff;
   border-radius: 5px;
@@ -92,16 +92,16 @@ h2 {
 .sns ul {
   list-style: none;
   display: flex;
-  margin-top:30px;
-}
-
-.sns ul li + li {
-  margin-left: 8px; 
+  /* margin-top: 40px auto; */
 }
 
 .sns ul li {
-  border-radius: 20%;
-  padding: 0 auto;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.sns ul li + li {
+  margin-left: 20px; 
 }
 
 .sns {
