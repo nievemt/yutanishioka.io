@@ -21,6 +21,11 @@ img {
 }
 
 /* header */
+
+header {
+  width: calc(100% - 32px);
+}
+
 .logo {
   margin-left: 20px;
   width: 70px;
@@ -96,7 +101,7 @@ h2 {
 }
 
 .sns ul li {
-  margin-left: px;
+  margin-left: 6px;
   margin-top: 20px;
 }
 
